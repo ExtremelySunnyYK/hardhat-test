@@ -1,12 +1,26 @@
 # Hardhat Testing Template
 
+## This repository contains sample tests that can be used to test your hardhat project.
+
+Contracts: 
+- Lending
+
+
+Unit tests:
+- test/unit/Lending
+
+
+Setups (mocks and fixtures): `test/shared/`
+
+## Commands to run tests
+
 Try running some of the following tasks:
 
 ```shell
 yarn compile
 yarn test
 yarn test --parallel
-yarn coverage
+yarn coverage # see the amount of coverage
 
 npx hardhat accounts
 npx hardhat compile
